@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://examplesite.com"
 languageCode = "en-us"
-title = "Influencer"
+title = "Trader Lab"
 theme = "influencer-hugo"
 summaryLength = "10"
 paginate = 6
@@ -34,34 +34,21 @@ paginate = 6
 [menu]
     
   [[menu.main]]
-  name = "About"
-  URL = "book"
+  name = "Acerca"
+  URL = "acerca"
   weight = 1
+
+  [[menu.main]]
+  name = "Ventajas"
+  URL = "ventajas"
+  weight = 6
   
   [[menu.main]]
-  name = "Chapter"
-  URL = "chapter"
+  name = "Alumnos"
+  URL = "alumnos"
   weight = 2
   
-  [[menu.main]]
-  name = "Reviews"
-  URL = "review"
-  weight = 3
-  
-  [[menu.main]]
-  name = "Author"
-  URL = "author"
-  weight = 4
-  
-  [[menu.main]]
-  name = "Blog"
-  URL = "blog"
-  weight = 5
-  
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 6
+
 
 
 #################### default parameters ################################
